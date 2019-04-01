@@ -1,6 +1,6 @@
-# Legend-of-Lanea
+# Legend of Lanea
 
-A Zeldaesque adventure for the Pokitto
+A calssic Zeldaesque adventure for the Pokitto DIY console.
 
 ## Creating your own world
 
@@ -58,14 +58,11 @@ map_0_0.tile_wall = gfx.wall_dungeon
 
 Note that for each entity, underlying tile (tid) must be set.
 
-# Text
+### Text
 
 Each test sequence is represented by a Python list. Each string element is a narrative text. Each list (inside the list) element is a text said by Lanea. Lanea can either say single line or two lines sentences.
 
 ```
 ['"Danger!"', '"Slimes ahead!"', ['That\'s reassuring.']]
-```
-
-```
 ['"Village of Roadshow"', ['Maybe they', 'serve beer?']]
 ```
